@@ -1,6 +1,6 @@
-set projectLocation=C:\Users\BECARIOS_DITIC\workspace\TestNGBatchExample
+set projectLocation=/var/lib/jenkins/workspace/TestNGBatchExample
 cd %projectLocation%
-set classpath=%projectLocation%\bin;%projectLocation%\lib\*
+set classpath=%projectLocation%\lib\*
 java org.testng.TestNG %projectLocation%\testng.xml
 pause
 
